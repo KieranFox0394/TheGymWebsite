@@ -1,0 +1,26 @@
+.mavbar-toggler{
+    visibility: hidden;
+}
+
+.navigation{
+    position: fixed;
+  }
+
+.nav-link{
+    color: #38FF14;
+}
+
+@media screen and (max-width: 800px){
+    .mavbar-toggler{
+      visibility: visible;
+      background-color: #38FF14;
+    }
+  
+    .navbar-num{
+      visibility: hidden;
+    }
+  
+    .nav-link{
+      color: #38FF14;
+    }
+  }
