@@ -132,6 +132,10 @@ a:link {
   justify-content: center;
 }
 
+.navigation{
+  position: fixed;
+}
+
 
 
 
@@ -152,5 +156,10 @@ a:link {
   .navbar-num{
     visibility: hidden;
   }
+
+  .nav-link{
+    color: #38FF14;
+  }
+
 
 }
