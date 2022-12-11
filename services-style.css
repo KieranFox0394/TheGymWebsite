@@ -133,7 +133,9 @@ a:active {
   background-color: black;
 }
 
-
+.footer-gap{
+  background-color: black;
+}
 
 @media screen and (max-width: 800px){
   h1{
