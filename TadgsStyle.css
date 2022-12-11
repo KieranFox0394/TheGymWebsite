@@ -113,8 +113,7 @@ html, body {
 .p{font-size: 25px;
     color: rgba(127, 255, 0);}
 
-.galleryphoto{width: 400px;
-                height: 400px;}
+
 
 .card-design{background-color: rgb(255, 255, 255);
             font-weight: bold;
@@ -130,7 +129,7 @@ html, body {
               display: flex;
               -ms-flex-wrap: wrap; 
               flex-wrap: wrap;
-              margin: 0 25px;
+              margin: 0 15px;
             }
             
 .checkout-title{text-align: left;
@@ -153,8 +152,8 @@ html, body {
 
 input[type=text] {
               width: 75%;
-              margin: 20px;
-              padding: 12px;
+              margin: 15px;
+              padding: 9px;
               border: 1px solid rgb(0, 0, 0);
               border-radius: 1.5px;
             }
@@ -323,61 +322,7 @@ label {
                 text-align: center;}
 
 
-.blog-header {
-    padding: 30px;
-    font-size: 40px;
-    text-align: center;
-    background: rgb(0, 0, 0);
-  }
-  
-  
-  .blog-leftcolumn { 
-    
-    display: flex;
-    order: 1;
-    flex-wrap: nowrap;
-    flex-direction: column;
 
-  }
-  
-  .blog-rightcolumn {
-   
-    display: flex;
-    flex-wrap: nowrap;
-    order: 3;
-    padding-left: 20px;
-    flex-direction: row;
-  }
-  
-  
-
-  .blog-card {
-    background-color: rgb(0, 0, 0);
-    padding: 20px;
-    margin-top: 20px;
-  }
-  
-
-  .blog-row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  .blog-text{
-    color: rgba(127, 255, 0);;
-  }
-  .blog-centre{align-items: center;
-                text-align: center;
-                justify-content: center;}
-  
-
-   .blog-img-response{
-    width: 100%;
-    height: 500px;
-    object-fit: cover;
-    
-  }
 
   .advertisement{
     text-align: center;
