@@ -49,10 +49,10 @@ function onLoad(){
 function goldHover(){
     if(isGoldSelected == true)
         {
-            goldBox.style.background = "51ad86";
+            goldBox.style.background = "#51ad86";
         }
     else{
-            goldBox.style.background = "444444";
+            goldBox.style.background = "black";
         }
 
     }
@@ -60,10 +60,10 @@ function goldHover(){
 function goldLeaveHover(){
     if(isGoldSelected == true)
         {
-            goldBox.style.background = "444444";
+            goldBox.style.background = "black";
         }
     else{
-            goldBox.style.background = "51ad86";
+            goldBox.style.background = "#51ad86";
         }
 
     }
@@ -72,7 +72,7 @@ function goldSwitch()
 {   console.log(isGoldSelected);
     if(isGoldSelected == true)
     {
-    goldBox.style.background = "#444444";
+    goldBox.style.background = "black";
     
     hideDetailsAndCosts();
     isGoldSelected = false;
@@ -99,7 +99,7 @@ function goldSwitch()
 {   console.log(isSilverSelected);
     if(isSilverSelected == true)
     {
-    silverBox.style.background = "#444444";
+    silverBox.style.background = "black";
         
     isSilverSelected = false;
     hideDetailsAndCosts();   
@@ -127,7 +127,7 @@ function goldSwitch()
 {   console.log(isBronzeSelected);
     if(isBronzeSelected == true)
     {
-    bronzeBox.style.background = "#444444";
+    bronzeBox.style.background = "#black";
     
     hideDetailsAndCosts();
     isBronzeSelected = false;
