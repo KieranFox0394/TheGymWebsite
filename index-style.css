@@ -124,7 +124,8 @@ a:active {
 }
 
 .navbar{
-  position: fixed;
+  background-color: black;
+
 
 }
 
