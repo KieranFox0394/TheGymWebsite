@@ -207,35 +207,35 @@ label {
             font-size: 65%;}
 
 @media screen and ( max-width:760px ) {
-  .month .weekdays .days .date .calendar .new-container .main-wrapper1{ 
+   .weekdays div .days div{ 
     position: relative;
     width: 50%;
-    float:inline-start
+    
   }
 }
 
 @media screen and ( max-width:380px ) {
-  .month .weekdays .days .date .calendar .new-container .main-wrapper1 { 
+  .weekdays div .days div { 
     position: relative;
-    width: 100%;
-    float: inline-start;
+    width: 15%;
+   
   }
 }
 
 
 @media screen and ( max-width:200px ) {
-  .month .weekdays .days .date .calendar .new-container .main-wrapper1 { 
+   .weekdays div .days div { 
     position: relative;
-    width: 100%;
-    float: inline-start;
+    width: 13%;
+    
   }
 }
 
 @media screen and ( max-width:100px ) {
-  .month .weekdays .days .date .calendar .new-container .main-wrapper1{ 
+   .weekdays div .days div{ 
     position: relative;
-    width: 100%;
-    float: inline-start;
+    width: 10%;
+    
   }
 }
 
