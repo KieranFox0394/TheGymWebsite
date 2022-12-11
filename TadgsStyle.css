@@ -217,7 +217,7 @@ label {
 @media screen and ( max-width:380px ) {
   .month .weekdays .days .date .calendar .new-container .main-wrapper1 { 
     position: relative;
-    width: 50%;
+    width: 100%;
     float: inline-start;
   }
 }
@@ -226,7 +226,7 @@ label {
 @media screen and ( max-width:200px ) {
   .month .weekdays .days .date .calendar .new-container .main-wrapper1 { 
     position: relative;
-    width: 50%;
+    width: 100%;
     float: inline-start;
   }
 }
@@ -234,7 +234,7 @@ label {
 @media screen and ( max-width:100px ) {
   .month .weekdays .days .date .calendar .new-container .main-wrapper1{ 
     position: relative;
-    width: 50%;
+    width: 100%;
     float: inline-start;
   }
 }
