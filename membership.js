@@ -127,7 +127,7 @@ function goldSwitch()
 {   console.log(isBronzeSelected);
     if(isBronzeSelected == true)
     {
-    bronzeBox.style.background = "#black";
+    bronzeBox.style.background = "black";
 
     isBronzeSelected = false;
     hideDetailsAndCosts();
