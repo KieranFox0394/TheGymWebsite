@@ -196,29 +196,7 @@ label {
               }
             }
 
-.socials{
-    list-style: none;
-    align-items: right;
-    justify-content: center;
-    margin: 0;
-}
 
-
-.socials a{
-    text-decoration: none;
-    color: rgba(127, 255, 0);
-    padding: 5px;
-    align-items: left;
-}
-
-.socials a:link{
-    font-size: 18px;
-   
-}
-
-.socials a:hover i{
-    color: blue;
-}
 .numbers{color: rgba(127, 255, 0);
         font-size: 25px;}
 .main-wrapper1{
@@ -226,8 +204,24 @@ label {
             margin: 0;
             box-sizing: border-box;
             font-family: 'Courier New', Courier, monospace;
-            font-size: 65%;
-        }
+            font-size: 65%;}
+
+@media screen and ( max-width:760px ) {
+  .month .weekdays .days { 
+    position: relative;
+    width: 100%;
+    float: left;
+  }
+}
+
+@media screen and ( max-width:380px ) {
+  .month .weekdays .days { 
+    position: relative;
+    width: 100%;
+    float: left;
+  }
+}
+
         
 .new-container{width: 100%;
                       height: 100vh;
