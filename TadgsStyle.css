@@ -1,0 +1,496 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: rgb(0, 0, 0, 0.6);
+    background-color: black;
+}
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5{
+    font-family: sans-serif;
+    font-weight:500;
+    color: chartreuse;
+    font-style: normal;
+    letter-spacing: 1px;
+
+}
+
+h1, .h1{
+    font-size:50px;
+    color: chartreuse;
+    
+
+}
+h2, .h2{
+    font-size:40px;
+    color: chartreuse;
+
+}
+h3, .h3{
+    font-size:35px;
+    color: chartreuse;
+
+}
+h4, .h4{
+    font-size:30px;
+    color: chartreuse;
+
+}
+h5, .h5{
+    font-size:25px;
+    color: chartreuse;
+
+}
+h6, .h6{
+    font-size:20px;
+    color: chartreuse;
+
+}
+
+
+html, body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+
+  .navbar-background .icon-bar {
+    background:rgba(127, 255, 0)
+  }
+
+  .header{background-color:rgba(127, 255, 0);
+          overflow: hidden;
+          padding: 30px 10px;
+}
+
+.header a{color: black;
+          font-size: 15px;
+          text-decoration: none;
+}
+
+.header a:hover{
+    color: black;
+    background-color: white;
+}
+
+.header a:active{
+    color: blue;
+    background-color: black;
+}
+
+.header a.logo{
+    font-size: 30px;
+    color: rgba(127, 255, 0);
+    float: left;
+}
+
+.bold-text{
+    text-decoration: solid;
+    color: black;
+    font-style: bold;
+    font-weight: bold;
+}
+
+.header.img{width: 1800px;
+            height: 900px;}
+
+.slider.title{font-size: 100px;
+              color: black;}
+.slider-container{display: flex;
+                  width: auto;
+                 height: auto;}
+.slider-row{display: flex;}
+.slider-wrapper{display: flex;}
+.slider {
+    background: url(https://prowess.qodeinteractive.com/wp-content/uploads/2018/02/h3-slider-img-1.jpg) no-repeat 0% 30%;
+    background-size: cover;
+    padding: 180px 0px;
+  }
+
+.p{font-size: 25px;
+    color: rgba(127, 255, 0);}
+
+.galleryphoto{width: 400px;
+                height: 400px;}
+
+.card-design{background-color: rgb(255, 255, 255);
+            font-weight: bold;
+            color: black;
+            margin: 0;
+            text-shadow: 0.5px 0 0.5px;
+            text-overflow: none;
+            text-align: center;
+            align-items: center;
+            text-decoration: solid;
+            }
+.checkout-row {
+              display: flex;
+              -ms-flex-wrap: wrap; 
+              flex-wrap: wrap;
+              margin: 0 25px;
+            }
+            
+.checkout-title{text-align: left;
+                align-items: flex-start;
+                font-weight: bold;
+                font-family: 'Times New Roman', Times, serif;
+                color: #000000;}
+            
+.checkout-column {
+              -ms-flex: 50%;
+              flex: 50%;
+            }
+            
+
+
+.checkout-column{
+              padding: 0 10px;
+            }
+            
+
+input[type=text] {
+              width: 75%;
+              margin: 20px;
+              padding: 12px;
+              border: 1px solid rgb(0, 0, 0);
+              border-radius: 1.5px;
+            }
+            
+label {
+
+              display: block;
+            }
+            
+            
+.checkout-button {
+              background-color: #000000;
+              color: white;
+              padding: 20px;
+              width: 50%;
+              border-radius: 1.5px;
+              font-size: 25px;
+            }
+
+.cancel-payment{background-color: #ef0000;
+  color: white;
+  padding: 20px;
+  width: 50%;
+  border-radius: 1.5px;
+  font-size: 25px;
+}
+            
+.checkouty-button:hover {
+              background-color: #ffffff;
+            }
+            
+
+@media (max-width: 800px) {
+              .row {
+                flex-direction: column-reverse;
+              }
+              .col-25 {
+                margin-bottom: 20px;
+              }
+            }
+
+.socials{
+    list-style: none;
+    align-items: right;
+    justify-content: center;
+    margin: 0;
+}
+
+
+.socials a{
+    text-decoration: none;
+    color: rgba(127, 255, 0);
+    padding: 5px;
+    align-items: left;
+}
+
+.socials a:link{
+    font-size: 18px;
+   
+}
+
+.socials a:hover i{
+    color: blue;
+}
+.numbers{color: rgba(127, 255, 0);
+        font-size: 25px;}
+.main-wrapper1{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 65%;
+        }
+        
+.new-container{width: 100%;
+                      height: 100vh;
+                      background-color:black;
+                      color: black;
+                     display:flex;
+                    justify-content: center;
+                    align-items: center;}
+        
+.calendar{width: 45rem;
+        height: 52rem;
+        background-color: rgb(127, 255, 0);
+        box-shadow: 0 0.7rem 4rem rgb(0, 0, 0, 0.6);
+        }                        
+        
+.month{width:100%;
+        height: 12rem;
+        background-color: rgb(41, 53, 30);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 5rem;
+        text-align: center;
+        
+        }
+        
+.month i{font-size: 5rem;
+                    cursor: pointer;}
+        
+.month h1{font-size: 3rem;
+          font-weight: 600;
+          text-transform: uppercase;
+          letter-spacing: 0.8rem;
+          margin-bottom: 0.5rem;}
+          
+.font-weight{font-weight: bold;}
+        
+.month p{font-size: 2rem;}
+        
+.weekdays{  width: 100%;
+        height: 5rem;
+        display: flex;
+        align-items: center;
+        padding: 0 0.4rem;}
+        
+.weekdays div{font-size: 1.5rem;
+         font-weight:bold;
+         letter-spacing: 0.3rem;
+         width: calc(44.2rem/7);
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         box-shadow: 0rem;
+        }   
+        
+.days {width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0.2rem;}   
+        
+        
+.days div{font-size: 1.8rem;
+        margin: 0.3rem;
+        width: calc(40rem/7);
+        height: 6rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        }        
+        
+.next-date{opacity: 0.7;}
+        
+.today{background-color: rgb(138, 230, 181);}
+        
+.days div:hover{background-color: rgb(51, 51, 51);}
+
+.calendar-header{color:rgba(127, 255, 0);
+                text-align: center;}
+
+
+.blog-header {
+    padding: 30px;
+    font-size: 40px;
+    text-align: center;
+    background: rgb(0, 0, 0);
+  }
+  
+  
+  .blog-leftcolumn { 
+    
+    display: flex;
+    order: 1;
+    flex-wrap: nowrap;
+    flex-direction: column;
+
+  }
+  
+  .blog-rightcolumn {
+   
+    display: flex;
+    flex-wrap: nowrap;
+    order: 3;
+    padding-left: 20px;
+    flex-direction: row;
+  }
+  
+
+  .imgholder {
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+    margin: 0;
+    align-items: center;
+
+  }
+  
+
+  .blog-card {
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    margin-top: 20px;
+  }
+  
+
+  .blog-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  .blog-text{
+    color: rgba(127, 255, 0);;
+  }
+  .blog-centre{align-items: center;
+                text-align: center;
+                justify-content: center;}
+  
+
+   .blog-img-response{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    
+  }
+
+  .advertisement{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+    }
+.video-header{
+    text-align: center;
+}
+  
+.text-container{position: relative;
+                text-align: center;
+              color: rgba(127, 255, 0);}
+.centered{ position: absolute;
+  top: 50%;
+  left: 10%;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  font-weight: bolder;
+  font-style: oblique;
+ }              
+  
+  @media screen and (max-width: 800px) {
+    .leftcolumn, .rightcolumn { 
+      width: 100%;
+      padding: 0;
+    }
+  }
+
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 500px;
+    border: 3px solid #f1f1f1;
+    z-index: 5;
+    background-color: rgb(127, 255, 0);
+  }
+  
+
+  input[type=text], input[type=password] {
+  width: 50%;
+  padding: 15px;
+  margin: 25px 40px;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+.email{color: rgb(7, 7, 7);}
+
+.password{color: rgb(7, 7, 7);}
+
+.repeat-password{color: rgb(7, 7, 7);}
+
+button {
+  background-color:rgb(0, 0, 0);
+  color: black;
+  padding: 14px 20px;
+  margin: 8px 0;
+  cursor: pointer;
+  width: 50%;
+}
+
+.sign-up{color: rgb(0, 0, 0);}
+
+.sign-up-btn{color: rgb(127, 255, 0);}
+
+
+.form-container .cancel {
+  background-color: rgb(0, 0, 0);
+}
+
+button:hover {
+  opacity:0.5;
+}
+
+
+ .signupbtn {
+  float:inline-start;
+  width: 40%;
+}
+
+/* Add padding to container elements */
+.form-container {
+  padding: 50px;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+.signupbtn {
+    width: 100%;
+  }
+}
+
+
+
+
+.row.content {height: 1500px}
+    
+
+.sidenav {
+  background-color: #000000;
+  height: 100%;
+}
+
+
+
+@media screen and (max-width: 767px) {
+  .sidenav {
+    height: auto;
+    padding: 15px;
+  }
+  .row.content {height: auto;} 
+}
