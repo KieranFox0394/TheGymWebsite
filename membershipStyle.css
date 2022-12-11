@@ -55,13 +55,7 @@ p { color: #f8f8f8; font-family: 'Raleway',sans-serif; font-size: 18px; font-wei
 }
 
 h1 {
-transition: 1000ms;
-}
-    
-@media only screen and (max-width: 800px) {
-    h1{
-        font-size: 30px;
-    }
+transition: 200ms;
 }
 
 
