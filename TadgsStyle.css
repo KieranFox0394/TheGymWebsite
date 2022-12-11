@@ -207,20 +207,32 @@ label {
             font-size: 65%;}
 
 @media screen and ( max-width:760px ) {
-  .month .weekdays .days { 
+  .month .weekdays .days .date .calendar{ 
     position: relative;
     width: 50%;
-    float: left;
+    float:inline-start
   }
 }
 
 @media screen and ( max-width:380px ) {
-  .month .weekdays .days { 
+  .month .weekdays .days .date .calendar { 
     position: relative;
     width: 50%;
-    float: left;
+    float: inline-start;
   }
 }
+
+
+@media screen and ( max-width:200px ) {
+  .month .weekdays .days .date .calendar { 
+    position: relative;
+    width: 50%;
+    float: inline-start;
+  }
+}
+
+
+
 
         
 .new-container{width: 100%;
