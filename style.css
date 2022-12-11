@@ -1,0 +1,81 @@
+body {
+  background: #444444;
+}
+
+h1 { color: #ffffff; font-family: 'Raleway',sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; margin: 0 0 24px; text-align: center; text-transform: uppercase; }
+
+h2 { color: #ffffff; font-family: 'Raleway',sans-serif; font-size: 30px; font-weight: 800; line-height: 36px; margin: 0 0 24px; text-align: center; }
+
+h3 { color: #ffffff; font-family: 'Raleway',sans-serif; text-align: center; }
+
+h4 { color: #ffffff; font-family: 'Raleway',sans-serif; text-align: center; }
+
+h5 { color: #ffffff; font-family: 'Raleway',sans-serif; text-align: center; }
+
+h6 { color: #ffffff; font-family: 'Raleway',sans-serif; text-align: center; }
+
+p { color: #f8f8f8; font-family: 'Raleway',sans-serif; font-size: 18px; font-weight: 500; line-height: 32px; margin: 0 0 24px; }
+
+.icon{
+    width:40px;
+    height:40px;
+}
+
+#details{
+    visibility: hidden;
+}
+
+#costRow{
+    visibility : hidden;
+}
+#youthDiscountRow{
+    visibility : hidden;
+}
+#oapDiscountRow{
+    visibility : hidden;
+}
+#saleDiscountRow{
+    visibility : hidden;
+}
+
+
+
+
+@media only screen and (max-width: 576px) {
+  .mobileRemove {
+    display: none;
+  }
+    div{
+        padding: 10px;
+    }
+    h1{
+        transition: 0ms;
+    }
+    
+}
+
+h1 {
+transition: 1000ms;
+}
+    
+@media only screen and (max-width: 800px) {
+    h1{
+        font-size: 30px;
+    }
+}
+
+
+input:valid {
+  border: 4px solid #51ad86;
+}
+
+#plans{
+    cursor: default;
+}
+#offer{
+    cursor: default;
+}
+#costSum{
+    cursor: default;
+}
+
