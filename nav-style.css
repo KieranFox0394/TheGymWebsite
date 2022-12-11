@@ -11,6 +11,10 @@
     background-color: black;
 }
 
+.navbar{
+    background-color: black;
+}
+
 @media screen and (max-width: 800px){
     .mavbar-toggler{
       visibility: visible;
@@ -26,3 +30,5 @@
       background-color: black;
     }
   }
+
+.nav-link:hover, .navbar-num:hover { COLOR: white; }
