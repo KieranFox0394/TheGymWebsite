@@ -6,7 +6,11 @@ body{
     text-align: center;
     overflow-x :hidden;
     white-space: none;
-    margin: 0 auto;
+}
+
+nav{
+  background-color: black;
+
 }
 
 
@@ -82,6 +86,10 @@ p{
   justify-content: center;
 }
 
+.footer-gap{
+  background-color: black;
+}
+
 /*links*/
 a:link {
   color: #38FF14;
@@ -133,9 +141,11 @@ a:active {
   background-color: black;
 }
 
-.footer-gap{
-  background-color: black;
+.navigation{
+  position: fixed;
 }
+
+
 
 @media screen and (max-width: 800px){
   h1{
