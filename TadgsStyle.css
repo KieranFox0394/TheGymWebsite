@@ -209,7 +209,7 @@ label {
 @media screen and ( max-width:760px ) {
   .month .weekdays .days { 
     position: relative;
-    width: 100%;
+    width: 50%;
     float: left;
   }
 }
@@ -217,7 +217,7 @@ label {
 @media screen and ( max-width:380px ) {
   .month .weekdays .days { 
     position: relative;
-    width: 100%;
+    width: 50%;
     float: left;
   }
 }
