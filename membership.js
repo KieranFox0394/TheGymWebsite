@@ -128,9 +128,9 @@ function goldSwitch()
     if(isBronzeSelected == true)
     {
     bronzeBox.style.background = "#black";
-    
-    hideDetailsAndCosts();
+
     isBronzeSelected = false;
+    hideDetailsAndCosts();
     }
  else {
     bronzeBox.style.background = "#51ad86";
@@ -143,10 +143,10 @@ function goldSwitch()
      {
          silverSwitch();
      }
-     isBronzeSelected = true;
      planPrice = bronzePricePlan
      updateCosts();
      showDetailsAndCosts();
+     isBronzeSelected = true;
  }
    
 }
