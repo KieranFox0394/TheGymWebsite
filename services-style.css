@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow+Condensed:400,500,600,700|Montserrat|Poppins:400,500,600,700");
+
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+    overflow-x :hidden;
+    white-space: none;
+}
+
+
+html{
+  background-color: black;
+}
+
+button{
+  visibility: hidden;
+}
+
+.nav-link{
+    color: #38FF14;
+}
+
+.services-main img{
+    width: 100%;
+    height: 100%;
+}
+
+.img-serv{
+  width: 300px;
+  height: 300px;
+  opacity: 0.75;
+}
+
+.mem-call{
+  background-color: black;
+  justify-content: center;
+  text-align: center;
+}
+
+br{
+  background-color: black;
+}
+
+.services-main{
+  background-color: black;
+}
+
+
+h2{
+  color: #38FF14;
+}
+
+h4{
+  color: #38FF14;
+}
+
+.phone-number{
+  color: #38FF14;
+}
+
+li{
+    color: #38FF14;
+}
+
+.container{
+  background-color: black;
+}
+
+.row{
+  background-color: black;
+}
+
+p{
+  color: gray;
+  text-align: center;
+  background-color: black;
+}
+
+.row{
+  justify-content: center;
+}
+
+/*links*/
+a:link {
+  color: #38FF14;
+  }
+  
+a:visited {
+  color: #38FF14;
+}
+  
+
+a:hover {
+  color: #38FF14;
+}
+
+a:active {
+  color: #38FF14;
+}
+
+.row{
+  background-color: black;
+}
+
+.img-fluid{
+  opacity: 0.75;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+.cta{
+  margin: 25;
+}
+
+.youtube{
+  justify-content: center;
+}
+
+.navbar{
+  position: fixed;
+
+}
+
+.nav-link{
+  background-color: black;
+}
+
+
+
+@media screen and (max-width: 800px){
+  h1{
+    visibility: hidden;
+  }
+
+  h6{
+    visibility: hidden;
+  }
+
+  button{
+    visibility: visible;
+    background-color: #38FF14;
+  }
+
+  .navbar-num{
+    visibility: hidden;
+  }
+
+  .nav-link{
+    color: #38FF14;
+  }
+
+
+}
