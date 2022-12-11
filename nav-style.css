@@ -2,9 +2,6 @@
     visibility: hidden;
 }
 
-.navigation{
-    position: fixed;
-  }
 
 .nav-link{
     color: #38FF14;
@@ -12,7 +9,7 @@
 }
 
 .navbar{
-    background-color: black;
+  background-color: black;
 }
 
 @media screen and (max-width: 800px){
@@ -30,5 +27,3 @@
       background-color: black;
     }
   }
-
-.nav-link:hover, .navbar-num:hover { COLOR: white; }
