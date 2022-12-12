@@ -1,9 +1,11 @@
+/*Main Theme for the pages*/
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 18px;
     color: rgb(0, 0, 0, 0.6);
     background-color: black;
 }
+/*Google Font Used */
 @import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
 
 /*Dean's CSS*/
@@ -92,7 +94,7 @@ html, body {
     width: 100%;
   }
 
-  .navbar-background .icon-bar {
+.navbar-background .icon-bar {
     background:rgba(127, 255, 0)
   }
 
@@ -114,7 +116,7 @@ html, body {
     color: rgba(127, 255, 0);}
 
 
-
+/*Pricing Design */
 .card-design{background-color: rgb(255, 255, 255);
             font-weight: bold;
             color: black;
@@ -125,6 +127,8 @@ html, body {
             align-items: center;
             text-decoration: solid;
             }
+
+/*Check-Out PopUP Form */
 .checkout-row {
               display: flex;
               -ms-flex-wrap: wrap; 
@@ -143,61 +147,70 @@ html, body {
               flex: 50%;
             }
             
-
-
 .checkout-column{
               padding: 0 10px;
             }
             
 
 input[type=text] {
-              width: 75%;
-              margin: 20px;
+              width: 70%;
+              margin: 22px;
               padding: 9px;
-              border: 1px solid rgb(0, 0, 0);
-              border-radius: 1.5px;
+              border: 1px solid rgb(19, 19, 19);
+              border-radius: 1px;
             }
             
 label {
-
-              display: block;
-            }
+      display: block;
+      }
             
             
 .checkout-button {
               background-color: #000000;
               color: white;
               padding: 20px;
-              width: 50%;
-              border-radius: 1.5px;
+              width: 45%;
+              border-radius: 1px;
               font-size: 25px;
             }
 
 .cancel-payment{background-color: #ef0000;
   color: white;
   padding: 20px;
-  width: 50%;
-  border-radius: 1.5px;
+  width: 45%;
+  border-radius: 1px;
   font-size: 25px;
 }
             
-.checkouty-button:hover {
+.checkout-button:hover {
               background-color: #ffffff;
             }
             
 
 @media (max-width: 800px) {
-              .row {
+              .checkout-row {
                 flex-direction: column-reverse;
               }
-              .col-25 {
+              .checkout-column {
                 margin-bottom: 20px;
+              }
+            }
+
+
+@media (max-width: 320px) {
+              .checkout-row {
+                flex-direction: column-reverse;
+              }
+              .checkout-column {
+                margin-bottom: 10px;
               }
             }
 
 
 .numbers{color: rgba(127, 255, 0);
         font-size: 25px;}
+
+/*Calendar CSS */        
 .main-wrapper1{
             padding: 0;
             margin: 0;
@@ -323,7 +336,7 @@ label {
 
 
 
-
+/*Not in Use in Blog anymore */
   .advertisement{
     text-align: center;
     margin-left: auto;
@@ -333,7 +346,8 @@ label {
 .video-header{
     text-align: center;
 }
-  
+ 
+
 .text-container{position: relative;
                 text-align: center;
               color: rgba(127, 255, 0);}
@@ -352,6 +366,7 @@ label {
     }
   }
 
+  /*Booking Form PopUP */
   .form-popup {
     display: none;
     position: fixed;
@@ -363,10 +378,10 @@ label {
   }
   
 
-  input[type=text], input[type=password] {
+input[type=text], input[type=password] {
   width: 50%;
-  padding: 15px;
-  margin: 25px 40px;
+  padding: 18px;
+  margin: 20px 40px;
   display: inline-block;
   border: none;
   background: #f1f1f1;
@@ -411,19 +426,16 @@ button:hover {
   width: 40%;
 }
 
-/* Add padding to container elements */
 .form-container {
-  padding: 50px;
+  padding: 55px;
 }
 
-/* Clear floats */
 .clearfix::after {
   content: "";
   clear: both;
   display: table;
 }
 
-/* Change styles for cancel button and signup button on extra small screens */
 @media screen and (max-width: 300px) {
 .signupbtn {
     width: 100%;
@@ -431,31 +443,8 @@ button:hover {
 }
 
 
+.footer-style{color: grey;}
 
-
-.row.content {height: 1500px}
-    
-
-.sidenav {
-  background-color: #000000;
-  height: 100%;
-}
-
-
-
-@media screen and (max-width: 767px) {
-  .sidenav {
-    height: auto;
-    padding: 15px;
-  }
-  .row.content {height: auto;} 
-}
-@media only screen and (max-width : 768px) { .calendar .weekdays{ display: none; } .calendar li{ height: auto!important; 
-   width: 100%; padding: 10px; margin-bottom: -1px; } .calendar li .day, .calendar li .month{ display: inline; }
-    .calendar li.outofrange { display: none; } }
-    @media only screen 
-  and (min-device-width: 320px) 
-  and (max-device-width: 480px){.calendar{display: block;} .calendar{width: 35%;}}
 /*Deans CSS*/
 @media screen and (max-width: 800px){
   h1{
