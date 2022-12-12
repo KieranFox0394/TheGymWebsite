@@ -71,3 +71,8 @@ input:valid {
 #costSum{
     cursor: default;
 }
+
+#submit{
+        height:50px;
+        width: 200px;
+}
