@@ -7,6 +7,7 @@ var silverBox = document.getElementById('selectionBoxSilver');
 var bronzeBox = document.getElementById('selectionBoxBronze');
 var goldPrice = document.getElementById('goldPrice');
 
+var details = document.getElementById('detailsForm');
 var det = document.getElementById('details');
 var costSum = document.getElementById('costSum');
 var costRow = document.getElementById('costRow');

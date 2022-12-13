@@ -5,8 +5,8 @@ body{
     color: rgb(0, 0, 0, 0.6);
     background-color: black;
 }
-/*Google Font Used */
-@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');
+/*Google Font Used
+@import url('https://fonts.googleapis.com/css2?family=Heebo&display=swap');*/
 
 /*Dean's CSS*/
 .nav-link{
@@ -404,7 +404,7 @@ button {
   padding: 14px 20px;
   margin: 8px 0;
   cursor: pointer;
-  width: 50%;
+  /*width: 50%;*/
 }
 
 .sign-up{color: rgb(0, 0, 0);}

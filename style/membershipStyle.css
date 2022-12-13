@@ -1,3 +1,11 @@
+
+h2{
+  color: #38FF14;
+}
+h6{
+  color: #ffffff;
+}
+
 h2{
   color: #38FF14;
 }
@@ -6,8 +14,18 @@ h4{
   color: #38FF14;
 }
 
+p{
+  color: gray;
+  text-align: center;
+  background-color: black;
+}
+
+
 body {
   background: black;
+  text-align: center;
+  color: white;
+
 }
 
 .navbar{
